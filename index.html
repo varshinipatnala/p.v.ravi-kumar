@@ -1,0 +1,767 @@
+ <!doctype html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href= 
+"https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity= 
+"sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" 
+          crossorigin="anonymous" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<title>TRAVEL INDIA</title>
+<style>
+.ntg{
+background-color:#6AABD2;
+}
+.up{
+position:fixed;
+bottom:0;
+right:0;
+height:50px;
+width:50px;
+background-color:navy;
+color:white;
+}
+.eg{
+display:flex;
+}
+.w1 {
+fill:#F37970;
+}
+.w2 {
+fill:#E43D40;
+opacity:0.7;
+}
+.w3 {
+fill:#FC2E20;
+opacity:1;
+}
+.demo1{
+background-color:#FC2E20;
+height:500px;
+width:100%;
+}
+.child7{
+background-image:url("images/ab1.jpg");
+background-size:cover;
+height:500px;
+background-repeat:no-repeat;
+}
+.child8{
+display:flex;
+}
+
+.child4{
+display:flex;
+border:2px solid;
+border-radius:10px;
+}
+.child6{
+height:70px;
+width:400px;
+border-radius:10px;
+margin-left:200px;
+border-radius:5px;
+padding:20px;
+background-color:white;
+border:3px solid navy;
+}
+.child3{
+height:900px;
+}
+.fourteen{
+display:flex;
+padding:20px;
+}
+.thirteen{
+display:flex;
+padding:20px;
+}
+.twelve{
+display:flex;
+padding:20px;
+}
+.eleven{
+display:flex;
+padding:20px;
+}
+.col17:hover{
+background-color:aqua;
+height:400px;
+}
+.col17{
+background-color:red;
+height:400px;
+}
+.col16{
+background-image:url("images/himachal.jpg");
+height:400px;
+}
+.col15{
+background-image:url("images/tamilnadu.jpg");
+height:400px;
+}
+.col14{
+background-image:url("images/wesbengal.jpg");
+height:400px;
+}
+.col13{
+background-image:url("images/kerala.jpg");
+height:400px;
+}
+.col12{
+background-image:url("images/madhya.jpg");
+height:400px;
+}
+.col11{
+background-image:url("images/kashmir.jpg");
+height:400px;
+}
+.col8{
+background-image:url("images/rajasthan.jpg");
+height:400px;
+}
+.col9{
+background-image:url("images/ladakh.jpg");
+height:400px;
+}
+.col10{
+background-image:url("images/andaman.jpg");
+height:400px;
+}
+.ten{
+background-image:url("images/holiday.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+height:600px;
+}
+.nine{
+height:330px;
+width:60%;
+border-radius:10px;
+margin-left:260px;
+margin-top:140px;
+border-radius:5px;
+padding:25px;
+background-color:white;
+}
+.col7{
+background-image:url("images/kerala.jpg");
+height:400px;
+width:280px;
+margin-left:20px;
+}
+.col6{
+background-image:url("images/rajasthan.jpg");
+height:400px;
+width:300px;
+margin-right:10px;
+}
+.col5{
+background-image:url("images/andaman.jpg");
+height:400px;
+width:280px;
+margin-right:20px;
+}
+.col4{
+background-image:url("images/darjeeling.jpg");
+height:400px;
+width:300px;
+}
+.col3{
+background-image:url("images/ladakh.jpg");
+height:400px;
+width:300px;
+}
+.col2{
+background-image:url("images/kashmir.jpg");
+height:400px;
+width:300px;
+}
+.col1{
+background-image:url("images/sun.jpg");
+height:850px;
+color:white;
+font-size:15px;
+}
+.row{
+border-radius:5px;
+padding:25px;
+}
+.five{
+position:relative;
+
+}
+.five5{
+height:150px;
+width:200px;
+position:absolute;
+top:40%;
+border:1px solid orange;
+background-color:orange;
+}
+.six{
+font-family:georgia;
+font-size:40px;
+color:black;
+}
+.seven{
+font-family:georgia;
+font-size:25px;
+color:red;
+}
+.eight{
+font-size:20px;
+font-family:georgia;
+background-color:white;
+height:500px;
+width:100%;
+}
+ul{
+display:inline-flex;
+float:right;
+list-style-type:none;
+}
+ul li{
+font-size:15px;
+font-family:century;
+padding:40px;
+color:black;
+}
+ul li:hover{
+background-color:skyblue;
+}
+.two{
+color:white;
+font-size:80px;
+font-family:georgia;
+}
+.three{
+color:black;
+font-size:40px;
+font-family:times new roman;
+}
+.four{
+padding:35px;
+display:inline-flex;
+}
+.child1{
+height:105px;
+width:700px;
+border-radius:10px;
+margin-left:300px;
+border-radius:5px;
+padding:25px;
+background-color:white;
+border:3px solid navy;
+}
+.ani{
+height:800px;
+background-size:cover;
+background-repeat:no-repeat;
+position:center;
+animation-name:example;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+@keyframes example{
+0%{background-image:url("images/bg1.jpg")}
+25%{background-image:url("images/bg2.jpg")}
+50%{background-image:url("images/bg3.jpg")}
+75%{background-image:url("images/bg4.jpg")}
+100%{background-image:url("images/bg5.jpg")}
+}
+
+</style>
+</head>
+<body>
+
+<!---Home section----->
+<div class="one" id="HOME" style="background-color:white;">
+<img src="images/logo.png"height="100px"width="100px"/>
+<ul>
+<li>HOME</li>
+<li>ABOUT US</li>  
+<li>DESTINATIONS</li>
+<li>SERVICES</li>
+<li>CONTACT US</li>
+<li>FEEDBACK</li>
+<a href="C:\Users\DT009\Desktop\varshini\myproject\signup.html" target="_blank"><button class="btn btn-success">SIGN UP</button></a>
+</ul>
+</div>
+<div class="ani">
+<h1 class="two"><center><b>INCREDIBLE !NDIA</b></center></h1><br/><br/>
+<h2 class="three"><center>It's Time To</br><i><b><span style="color:red;font-size:50px">Discover</span></b></i> India</br>Start Your Next Adventure Today:Find Your<br/>Perfect Trip Now</center></h2>
+<br/><br/>
+<div class="child1">
+<div class="container">
+<i class="fa-solid fa-location-dot"></i><h8>Location</h8>
+<i class="fa-solid fa-calendar-check"></i><label><i>check in</i></label><input type="date"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa-solid fa-calendar-xmark"></i><label><i>check out</i></label><input type="date"/>&nbsp;
+<a href= "#"><button class="btn btn-primary">Search</button></a>
+</div>
+</div>
+</div>
+<br/><br/><br/>
+
+<!----about us------>
+<div class="row">
+<div class="col-sm-4 five">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/ab1.jpg" alt="First slide" height="550px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/ab2.jpg" alt="Second slide" height="550px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/ab3.jpg" alt="Third slide" height="550px">
+    </div>
+  </div>
+</div>
+<div class="five5">
+<h1 style="font-size:30px;">17+<br/>Years of<br/>Experience</h1>
+</div>
+</div>
+<div class="col-sm-8">
+<h1 class="six"><center><b><u>ABOUT US</u></b></center></h1></br>
+<h3 class="seven"><center><b>Travel !ndia Pvt.Ltd</b></center></h3></br>
+<p><center>Travel India Tourism Pvt.Ltd is a Leading Travel Agency in Visakhaptnam,Andhra Pradesh,this is established in 2006, Specializing in Providing Exceptional Across !ndia and Travel Experiences across !ndia and around the world .Trusted by Thousands of Happy customers.</center></p> 
+<i class="fa-solid fa-circle-check"></i>Travel Packages<br/><br/>
+<i class="fa-solid fa-circle-check"></i>Hotels<br/><br/>
+<i class="fa-solid fa-circle-check"></i>Transportation<br/></br/>
+<i class="fa-solid fa-circle-check"></i>Air ticket<br/></br/>
+<i class="fa-solid fa-circle-check"></i>Visa<br/></br>
+<button class="btn btn-primary">DISCOVER MORE</button>
+</div>
+</div>
+</div><br/><br/><br/>
+
+<!-----exclusive tour------>
+
+<div class="row">
+<div class="col-sm-4">
+<div class="col1">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h1><i>Exclusive Tour<br/>20%<br/>OFF<br/></i></h1><button class="btn btn-success">Book now</button>
+</div>
+ </div>
+<div class="col-sm-8">
+<div class="row">
+<div class="col-sm-4">
+<div class="col2">
+ <h2 style="color:white;font-size:25px;"><center><b>Kashmir Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">5 Tour Packages</button>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="col3">
+<h2 style="color:black;font-size:25px;"><center><b>Ladakh Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">4 Tour Packages</button>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="col4">
+<h2 style="color:black;font-size:25px;"><center><b>Darjeeling Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">6 Tour Packages</button>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="col5">
+<h2 style="color:black;font-size:25px;"><center><b>Andaman Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">4 Tour Packages</button>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="col6">
+<h2 style="color:black;font-size:25px;"><center><b>Rajasthan Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">5 Tour Packages</button>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="col7">
+<h2 style="color:black;font-size:25px;"><center><b>kerala Tour</b></center></h2>
+<br/><br/></br></br><br/><br/><br/><br/><br/><br/><br/><br/>
+<button class="container-fluid btn bg-warning">5 Tour Packages</button>
+</div>
+</div>
+</div>
+</div>
+</div><br/><br/><br/>
+
+<!-----holidays------>
+<div class="ten">
+<div class="nine">
+<div class="container">
+<h1 style="color:navy;font-size:35px;">Holidays Designed For You</h1>
+<p><b>Travel India Tourism offers you the expertise of our consultants who have personally visited all our destinations. They are eager to share their extensive knowledge and provide valuable advice. With their in-depth familiarity with our destinations, they can guide you on the must-see places, best routes, accommodation options, and exciting activities. Our dedicated team is here to assist you in crafting your ideal itinerary, arranging everything from hotels and tours to flights, ensuring your holiday is perfectly tailored to your preferences.
+
+Our Travel Experts to understand your preferences, and they will seamlessly organize your accommodation, tours, and travel arrangements for you. For inquiries, please reach out to <span style="color:fuchsia;">travelindiatourism@gmail.com or call +919876543210</span></b></p>
+</div>
+</div>
+</div><br/><br/><br/>
+
+<!------destinations------>
+<h1 style="color:navy;font-size:40px;margin-top:60px;"><center><b>DESTINATIONS</b></center></h1>
+<p><center>Discover India’s enchanting destinations, from the tranquil seas to majestic mountains. With Travel India Tourism Pvt.Ltd</center></p>
+<div class="row">
+<div class="col-sm-6">
+<div class="col8">
+<h1 style="color:white;font-size:30px;">RAJASTHAN</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col9">
+<h1 style="color:white;font-size:30px;">LEH LADAKH</h1>
+<h5 style="color:navy;font-size:20px;">6 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col10">
+<h1 style="color:white;font-size:30px;">ANDAMAN</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-3">
+<div class="col11">
+<h1 style="color:white;font-size:30px;">KASHMIR</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col12">
+<h1 style="color:white;font-size:30px;">MADHYA PRADESH</h1>
+<h5 style="color:navy;font-size:20px;">10 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="col13">
+<h1 style="color:white;font-size:30px;">KERALA</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-3">
+<div class="col14">
+<h1 style="color:white;font-size:30px;">WEST BENGAL</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col15">
+<h1 style="color:white;font-size:30px;">TAMILNADU</h1>
+<h5 style="color:navy;font-size:20px;">5 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col16">
+<h1 style="color:white;font-size:30px;">HIMACHAL<br/>PRADESH</h1>
+<h5 style="color:navy;font-size:20px;">6 tour packages</h5>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="col17">
+<h1 style="color:white;font-size:30px;">EXPLORE INDIA</h1>
+<P>India, a country of diverse heritage, from ancient temples to colonial architecture. Its landscapes range from serene coastlines to towering mountains, complemented by lush national parks. Explore Now <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<i class="fa-solid fa-circle-arrow-right"></i></P>
+</div>
+</div>
+</div>
+<br/><br/><br/>
+
+
+
+<!------packages------>
+<h1 style="color:navy;font-size:40px;margin-top:60px;"><center><b>BEST TOUR PACKAGES</b></center></h1>
+<p><center><b>Travel India Tourism Services Provide Best Tours Packages For You, Catering to Your Unique Preferences and Interests</b></center></p>
+<div class="eleven">
+<div class="card" style="width:25rem;border:3px solid;">
+  <img class="card-img-top" src="images/port.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Port Blair Tour,Andaman</h5>
+    <p class="card-text">0(no review)<br/></hr>
+From:13,899.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>5 days 4 nights
+    </p>
+    </div>
+</div>
+
+<div class="card" style="width:25rem;border:3px solid;">
+  <img class="card-img-top" src="images/gujarat.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Gujarat Golden Triangle Tour</h5>
+    <p class="card-text">5(1 review)<br/></hr>
+From:14,605.50/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>6 days 5 nights</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/kolkata.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Kolkata Tour</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:8,900.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>3 days 2 nights</p>
+    </div>
+</div>
+</div>
+
+<div class="twelve">
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/darjeeling.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Darjeeling Gangtok Tour Packages</h5>
+    <p class="card-text">0(no review)<br/></hr>
+From:15,299.10/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>5 days</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/kashmir.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Srinagar pahalgam Gulmarg Kashmir Tour</h5>
+    <p class="card-text">0(no review)<br/></hr>
+From:12,598.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>6 days 5 nights</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/jaipur.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Jaipur Ranthmabore Tour</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:12,599.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>5 days 4 nights</p>
+    </div>
+</div>
+</div>
+
+<div class="thirteen">
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/nashik.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Nashik Shirdi Tour</h5>
+    <p class="card-text">0(no review)<br/></hr>
+From:6,999.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>3 days 2 nights</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/kerala.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Munnar Alleppey Kerala Tour</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:15,920.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>4 days</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/mysore.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Banglore Mysore Coorg Tour</h5>
+    <p class="card-text">0(no review)<br/></hr>
+From:0.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>6 days 5 nights</p>
+    </div>
+</div>
+</div>
+
+
+<div class="fourteen">
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/tamilnadu.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Madurai Rameswaram Kanyakumari Tour</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:24,585.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>5 days 4 nights</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/ladakh.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Ladakh Tour Packages</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:13,599.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>6 days 5 nights</p>
+    </div>
+</div>
+
+<div class="card" style="width: 25rem;border:3px solid;">
+  <img class="card-img-top" src="images/shimla.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Shimla Manali Tour Packages</h5>
+    <p class="card-text">5(2 review)<br/></hr>
+From:19,200.00/- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i>6 days</p>
+    </div>
+</div>
+</div><br/><br/><br/><br/><br/>
+
+<!-----explore----->
+<div class="child7">
+<div class="child8">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-300px" src="images/jaipur.jpg" alt="First slide" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-300px" src="images/himachal.jpg" alt="Second slide" height="500px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-300px" src="images/ladakh.jpg" alt="Third slide" height="500px">
+    </div>
+  </div>
+</div>
+<div class="child9"><br/><br/><br/><br/><br/>
+<h1 style="color:white;font-size:40px;margin-left:40px;">Explore India & International destination</br> With Travel India Tourism Pvt.Ltd</h1>
+<p style="color:white;margin-left:40px;">Our specialized holidays division is adept at fulfilling all your travel requirements, be it accommodation, flights, visas, tours, transportation, or a comprehensive package, all tailored with your interests in mind!</p>
+<h5 style="color:white;margin-left:40px;">Tell us what you want and we will design it for you.</h5><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-warning">Enquiry now</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone" style="color:white;">+91-9876543210</i>
+</div>
+</div>
+</div></br></br></br>
+<!----services---->
+<div class="child3" id="SERVICES">
+<h1 style="color:navy;font-size:40px;"><center><b><u>SERVICES</u></b></center></h1><br/>
+<h3><center><b>All-Inclusive tours</b></center></h3><br/>
+<div class="row">
+<div class="col-sm-4">
+<img src="images/hotel.jpg"height="200px"width="200px"/>
+<h2>ACCOMADATION</h2>
+<p>Comfortable & convenient hotels picked by our Hotel Management team</p>
+</div>
+<div class="col-sm-4">
+<img src="images/meals.jpg"height="200px"width="200px"/>
+<h2>ALL MEALS</h2>
+<p>Indulge in satisfying meals from dawn to dusk:Breakfast,Lunch,Dinner.</p>
+</div>
+<div class="col-sm-4">
+<img src="images/car.jpg"height="200px"width="200px"/>
+<h2>ON-OUR-TRANSPORT</h2>
+<p>Our itineraries encompass comprehensive rail,sea,and road transport,ensuring a worry-free and enjoyable experience for you.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<img src="images/assist.jpg"height="200px"width="200px"/>
+<h2>TOUR ASSISTANCE</h2>
+<p>We provide tour assistance and support throughout your journeyto enhance your travel experience.</p>
+</div>
+<div class="col-sm-4">
+<img src="images/plan.jpg"height="200px"width="200px"/>
+<h2>BEST TOUR PLAN</h2>
+<p>We offer the best-value itineraries at affordable prices to ensure you get the most out of your travel budget.</p>
+</div>
+<div class="col-sm-4">
+<img src="images/service.jpg"height="200px"width="200px"/>
+<h2>REACH US FOR 24/7</h2>
+<p>Support via email at TravelIndiaTourism@gmail.com or By phone at +919876543210. We're here to assit you.</p>
+</div>
+</div>
+</div>
+</div><br/><hr/>
+
+<!-----travel packages------>
+<div class="ntg">
+<h1 style="color:navy;font-size:40px;">Find The Best Travel Packages At Travel India Tourism Pvt Limited</h1>
+<p>Travel India Tourism Pvt Limited is your gateway to unforgettable journeys across India, Dubai, Singapore, Malaysia, Thailand, and Sri Lanka. With a focus on quality, affordability, and customization, Travel India Tourism offers an array of meticulously crafted travel packages to suit your desires.</p>
+<h4 style="color:navy;font-size:20px;">Discover the Wonders of India:</h4>
+<p>Travel India Tourism invites you to explore the myriad facets of India, a land steeped in history, culture, and natural beauty. Their expertly crafted itineraries ensure that you don’t miss out on India’s iconic landmarks, be it the timeless Taj Mahal, the spiritual Varanasi, or the vibrant streets of Delhi. Choose from fixed tour packages for hassle-free travel or customize your journey to meet your unique desires.</p>
+<h4 style="color:navy;font-size:20px;">Unveil the Charms of Dubai:</h4>
+<p>Experience the glitz and glamour of Dubai with Travel India Tourism. From towering skyscrapers to desert adventures, they curate Dubai packages that encompass it all. Explore the world’s tallest building, the Burj Khalifa, enjoy thrilling desert safaris, and indulge in luxury shopping. Travel India Tourism ensures that your Dubai trip is as extravagant as the city itself.</p>
+<h4 style="color:navy;font-size:20px;">Sensational Southeast Asia:</h4>
+<p>Whether it’s the multicultural tapestry of Singapore, the natural beauty of Malaysia, the exotic allure of Thailand, or the serene landscapes of Sri Lanka, Travel India Tourism has you covered. Their fixed tour packages offer hassle-free exploration of these captivating destinations. Alternatively, customize your itinerary to delve deeper into your preferred Southeast Asian paradise.</p>
+<h4 style="color:navy;font-size:20px;">Travel India Tourism Services:</h4>
+<p>Travel India Tourism Pvt Limited doesn’t just offer travel packages; they provide an experience. With a dedicated team, 24/7 support, and a commitment to quality, they ensure your journey is seamless and memorable. Contact them at info@travelindiatourism.com or +91 7552421243 for personalized assistance and expert guidance.
+
+In a world brimming with travel possibilities, Travel India Tourism Pvt Limited stands out for its commitment to delivering exceptional travel experiences. Explore India, Dubai, Singapore, Malaysia, Thailand, and Sri Lanka with confidence, knowing that your journey is in the capable hands of Travel India Tourism. Your adventure begins here.</p>
+</div>
+<br/><br/><br/>
+
+<!--------special offers------>
+<div class="child4">
+<img src="images/kerala.jpg"height="400px"width="500px"/>
+<div class="child5">
+<h1><center>Get Special Offers,and<br/>more from Travel !ndia<br/>Tourism</h1>
+<p><center>Subscribe to see secret deals prices drop the moment you sign up!</center></p><br/><br/>
+<div class="child6">
+<div class="container">
+<h4>Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary">Subscribe</button></h4>
+</div>
+</div>
+</div>
+</div><br/><br/><br/>
+
+<!-----footer----->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1440 320" version="1.1">
+  <path class="w1"  d="m-1.2 155.9c0 0 45.8-1.8 68.7-0.8 96.9 4.3 213.1 15.7 289.6 28.9 120 19 241.7 41.5 361.7 62.8 120 21.7 269.8 29.2 389.8 2.9C1228.6 222.9 1320 108 1380 76l60-32v224l-60 52-293-1.1H734L363.5 317.2 75.8 322.4 0 268c0 0-1.2-81.2-1.2-112.1z"/>
+  
+  <path class="w2"   d="m-1.2 186.8c0 0 45-1.1 67.5-2 190.8-7.9 184.4-4 297.5 2 120 5.3 241.2 42.3 361.2 63.6 120 21.7 245 23 365-3.3 120-26.7 194-95.4 290.1-145.1 20.1-10.4 60-32 60-32V294H1380 1080 720 360 60 0Z" />
+
+  <path class="w3" d="M0 224 60 213.3C120 203 228.9 182.5 348.9 188.2 468.9 193.5 600 224 720 245.3 840 267 960 277 1080 250.7 1200 224 1320 160 1380 128l60-32V320H1380 1080 720 360 60 0Z" />
+</svg>
+<div class="demo1">
+<div class="row">
+<div class="col-sm-3">
+<h5 style="color:white;font-size:30px;">Quick Contact</h5><br/><br/>
+<i class="fa-solid fa-location" style="color:black;">vizag,Andhra pradesh</i><br/><br/>
+<i class="fa-solid fa-phone" style="color:black;">+919876543210</i><br/><br/>
+<i class="fa-solid fa-envelope" style="color:black;">travel india@gmail.com</i>
+<label>Currencies</label><br/>
+<select>
+<option>INR</option>
+</select>
+</div>
+<div class="col-sm-3">
+<h5 style="color:white;font-size:30px;">Company</h5><br/><br/>
+<h6>About us</h6><br/>
+<h6>community blog</h6><br/>
+<h6>careers</h6><br/>
+<h6>privacy policy</h6><br/>
+<h6>Terms of service</h6>
+</div>
+<div class="col-sm-3">
+<h5 style="color:white;font-size:30px;">Contact</h5><br/><br/>
+<h6>FAQ</h6><br/>
+<h6>Get in touch</h6>
+</div>
+<div class="col-sm-3">
+<h5 style="color:white;font-size:30px;">Social</h5><br/>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-facebook"></i>
+</i><br/>
+
+<h5 style="color:white;font-size:30px;">partners</h5><br/>
+<img src="images/partner.jpg"height="50px"width="50px"/><br/><br/>
+<img src="images/visa.jpg"height="40px"width="50px"/><br/><br/>
+<img src="images/sbi.jpg"height="40px"width="50px"/><br/><br/>
+<img src="images/hdfc.jpg"height="40px"width="50px"/>
+
+</div>
+</div>
+<div class="eg"><br/></br><br/>
+<h5 style="color:white;font-size:30px;margin">@copyright travel india pvt.ltd 2024</h5>
+</div>
+<a href="#">
+<div class="up"><center><i class="fa-solid fa-angle-up"></i></center></div>
+</a>
+</div>
+</body>
+</html>
